@@ -1,0 +1,134 @@
+body {
+  font-family: Avenir;
+  margin: 0;
+  background-color: black;
+}
+#main-container {
+  padding-inline: 10em;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  position: relative;
+  top: 50%;
+  transform: translateY(15%);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+#input-number-section {
+  display: flex;
+  align-items: flex-end;
+}
+
+.input-title {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+#add-name {
+  width: 300px;
+  height: 44px;
+  border-radius: 10px;
+  border: solid 1px rgb(218, 218, 218);
+  outline: none;
+  padding-left: 10px;
+  font-size: 1em;
+}
+
+#add-btn {
+  height: 46px;
+  width: 100px;
+  background-color: rgb(38, 91, 131);
+  border: none;
+  /* border-radius: 10px; */
+  color: white;
+  margin-left: -25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#decrease-btn,
+#increase-btn {
+  height: 46px;
+  width: 46px;
+  background-color: rgb(38, 91, 131);
+  border: none;
+  color: white;
+  margin-left: 25px;
+  border-radius: 10px;
+}
+#decrease-btn {
+  margin-right: 25px;
+}
+#increase-btn {
+  margin-left: 25px;
+}
+
+.input-title2 {
+  margin-left: 25px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+#names-show {
+  margin-block-start: 30px;
+  width: 600px;
+  height: 480px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 13px grey inset;
+  padding: 5px;
+}
+
+.left-side {
+  padding-inline: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 580px;
+  flex-wrap: wrap;
+  /* padding-block: 400px; */
+  margin-top: 130px;
+  height: 50vh;
+}
+
+.team-design h3 {
+  margin: 0;
+}
+
+.team-content {
+  height: 190px;
+  width: 170px;
+  background-color: white;
+  margin-block: 10px;
+  border-radius: 10px;
+}
+
+#assign-btn {
+  height: 50px;
+  width: 30vw;
+  border: none;
+  background-color: rgb(38, 91, 131);
+  border-radius: 10px;
+  margin-block: 20px;
+  color: white;
+}
+#reset-btn {
+  height: 50px;
+  width: 6vw;
+  border: none;
+  background-color: rgb(149, 0, 0);
+  border-radius: 10px;
+  margin-block: 20px;
+  color: white;
+}
+
+.li-style {
+  font-size: 1em;
+  list-style: none;
+  border-bottom: solid 1px gray;
+  padding: 10px;
+  padding-left: 30px;
+}
